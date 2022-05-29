@@ -15,8 +15,8 @@ em 14/3/1879) e o outro representando Isaac Newton (nascido em 4/1/1643)
 seriam as idades de Einstein e Newton caso estivessem vivos.
 
 2- Fazer uma classe Aluno que possua as seguintes características:
-* dois atributos do tipo inteiro: primeira nota parcial (de 0 a 100) e Segunda
-nota parcial (de 0 a 100)
+* dois atributos do tipo inteiro: primeira nota parcial (de 0 a 10) e Segunda
+nota parcial (de 0 a 10)
 * um atributo String representando o nome do aluno 
 * possua métodos para ler e escrever os atributos (ou uma construtora)
 * Fazer uma classe Controle que:
