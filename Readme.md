@@ -31,3 +31,58 @@ String para verificar se o valor do nome entrado é igual a “fim”.
 alunos foram aprovados, quantos foram para a final e quantos foram
 reprovados e mostrar os códigos de todos os alunos cujas notas ficaram abaixo
 da média da turma.
+
+3- Implementar a classe PolReg, que define um polígono regular
+* Atributos: número de lados, tamanho do lado
+* Métodos: cálculo do perímetro, cálculo do ângulo interno e cálculo de área.
+Este último deve retornar o valor zero, dado que não é possível calcular a área
+de um polígono regular genérico
+* Construtora que inicializa os valores dos atributos
+Fazer a classe TrianguloEqderivada de PolReg, que:
+* redefine o método de cálculo de área para calcular e retornar a área do
+triângulo equilátero
+Fazer a classe Quadrado, também derivada de PolReg, que:
+* redefine o método de cálculo de área para calcular e retornar a área do
+quadrado
+Fazer um programa que:
+* pergunte ao usuário que tipo de objeto ele quer criar (polígono regular,
+triângulo equilátero ou quadrado)
+* pergunte número de lados (se for polígono regular) e tamanho dos lados
+* instancie o objeto e mostre o valor do perímetro, ângulo interno e área
+calculados.
+
+4- Escrever a classe Complexo, que pretende representar um modelo para a criação de
+números complexos. A classe Complexo deve possuir:
+* 2 atributos float: real e imag
+* 1 construtora que recebe a parte real e a parte imaginária do número e
+inicializa os atributos
+* 1 método Modulo() que retorna o módulo do número complexo.
+* 1 método Angulo() que retorna o ângulo do número complexo em graus.
+Escrever a classe Real, derivada da classe Complexo, que pretende representar um
+modelo para a criação de números reais. A classe Real deve:
+* possuir uma construtora que recebe o valor do número como parâmetro e
+chama a construtora da base.
+* adicionar o método Sinal(), que retorna 1 se o número for positivo e -1 se for
+negativo.
+Escrever um programa em Java para testar estas classes (instanciar objetos, chamar
+métodos, etc.).
+
+5- Escrever a classe Pessoa com as seguintes características:
+* atributos: nome e idade
+* métodos: construtora para inicializar os parâmetros e mostraDados() que
+exibe os dados da pessoa no console na forma:
+Nome da pessoa: xxx
+Idade da pessoa: yyy
+Escrever a classe Aluno, derivada de Pessoa, com as seguintes características:
+* atributos: nome do curso que está cursando
+* métodos: construtora para inicializar os atributos e redefinição do método
+mostraDados() para exibir as seguintes mensagens:
+Nome do aluno: xxx
+Idade do aluno: yyy
+Curso do aluno: zzz
+Elaborar um programa em Java que:
+* declare uma referência para objeto da classe Pessoa
+* pergunte ao usuário, via console, se ele deseja instanciar um aluno ou uma
+pessoa
+* crie o objeto correspondente, referencie com a referência já criada e chame
+o método mostraDados() para exibir os dados da pessoa ou do aluno.
