@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4247c6-dc64-4f22-a8b0-5b4d38435f18" name="Changes" comment="ajuste do texto">
-      <change afterPath="$PROJECT_DIR$/src/com/exercicioPessoaAluno/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exercicioPessoaAluno/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exercicioPessoaAluno/Pessoa.java" afterDir="false" />
+    <list default="true" id="7f4247c6-dc64-4f22-a8b0-5b4d38435f18" name="Changes" comment="ajuste do texto e exercicio 3">
+      <change afterPath="$PROJECT_DIR$/src/com/exercicioNumerosComplexos/Complexo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exercicioNumerosComplexos/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exercicioNumerosComplexos/Real.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exercicioPolReg/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exercicioPolReg/PolReg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exercicioPolReg/Quadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exercicioPolReg/TriangEquil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
@@ -42,7 +46,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.exercicioPessoaAluno.Main">
+  <component name="RunManager" selected="Application.com.exercicioPolReg.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercicioPessoa.Main" />
       <module name="exercicios-poo-ii" />
@@ -82,8 +86,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.exercicioPolReg.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercicioPolReg.Main" />
+      <module name="exercicios-poo-ii" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercicioPolReg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.exercicioPolReg.Main" />
         <item itemvalue="Application.com.exercicioPessoaAluno.Main" />
         <item itemvalue="Application.com.exercicioAluno.Main" />
         <item itemvalue="Application.Main" />
@@ -120,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653840918443</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ajuste do texto e exercicio 3">
+      <created>1653851379725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653851379725</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +163,7 @@
     <MESSAGE value="Primeiros exercicios" />
     <MESSAGE value="exercicio aluno" />
     <MESSAGE value="ajuste do texto" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajuste do texto" />
+    <MESSAGE value="ajuste do texto e exercicio 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajuste do texto e exercicio 3" />
   </component>
 </project>
