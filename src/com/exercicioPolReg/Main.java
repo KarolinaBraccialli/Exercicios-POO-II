@@ -13,6 +13,7 @@ public class Main {
            System.out.println("Informe o número de lados: ");
            int numeroLados = scanner.nextInt();
            PolReg polig = new PolReg(numeroLados,0);
+           polig.setTamanhoLados();
            System.out.println("O perímetro é: " + polig.calculoPerimetro());
        } else if (objeto.equalsIgnoreCase("t")) {
            System.out.println("Informe o tamanho dos lados: ");

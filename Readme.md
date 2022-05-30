@@ -49,7 +49,7 @@ Fazer um programa que:
 * pergunte ao usuário que tipo de objeto ele quer criar (polígono regular,
 triângulo equilátero ou quadrado)
 * pergunte número de lados (se for polígono regular) e tamanho dos lados
-* instancie o objeto e mostre o valor do perímetro, ângulo interno e área
+* instancie o objeto e mostre o valor do perímetro e área
 calculados.
 
 4- Escrever a classe Pessoa com as seguintes características:

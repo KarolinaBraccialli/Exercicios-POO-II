@@ -23,8 +23,17 @@ public class PolReg {
         return tamanhoLados;
     }
 
-    public void setTamanhoLados(double tamanhoLados) {
-        this.tamanhoLados = tamanhoLados;
+    public void setTamanhoLados() {
+        Scanner scanner = new Scanner(System.in);
+        int count = 0;
+        double soma =0;
+        while (count < this.numeroLados) {
+            System.out.println("Tamanho do lado: ");
+            this.tamanhoLados = scanner.nextDouble();
+            soma += this.tamanhoLados;
+            count++;
+        }
+        this.tamanhoLados = soma;
     }
 
     public PolReg(int numeroLados, double tamanhoLados) {
@@ -33,15 +42,6 @@ public class PolReg {
     }
 
     public double calculoPerimetro(){
-        Scanner scanner = new Scanner(System.in);
-        int count = 0;
-        double soma =0;
-        while (count < this.numeroLados){
-            System.out.println("Tamanho do lado: ");
-            this.tamanhoLados = scanner.nextDouble();
-            soma+= this.tamanhoLados;
-            count++;
-        }
-        return soma;
+        return this.tamanhoLados;
     }
 }
